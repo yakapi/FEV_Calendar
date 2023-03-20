@@ -1,7 +1,9 @@
 import React from 'react'
 
 class Home extends React.Component{
-  console.log(process.env.API_KEY);
+  componentDidMount(){
+    console.log('hello');
+  }
   render() {
     return (
       <div>
