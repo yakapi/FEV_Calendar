@@ -3,6 +3,7 @@ import React from 'react'
 class Home extends React.Component{
   componentDidMount(){
     console.log('hello');
+    console.log(process.env.TEST_OR);
   }
   render() {
     return (
